@@ -72,12 +72,18 @@
   margin-bottom: 32px;
 }
 #card-box {
+  padding: ;
   width: 884px;
   margin: 50px auto;
   display: flex;
   justify-content: space-between;
+  border: 1px dotted black;
+}
+#card-box .container{
+  
 }
 #card-box .title {
+
   color: rgb(16, 16, 16);
   font-family: Work Sans;
   font-size: 28px;
@@ -113,13 +119,13 @@ opacity: 0.6; */
   gap: 20px;
   justify-content: center;
   align-items: center;
-  
 }
 .card .img-box {
   max-width: 250px;
 }
 .card .img-box img {
   width: 100%;
+  border-radius: 16px;
 }
 .card .shop {
   background-color: #57f6c1;
@@ -129,13 +135,98 @@ opacity: 0.6; */
   border-radius: 8px;
   background: rgba(82, 195, 3, 0.15);
 }
-.card p{
+.card p {
   color: rgb(16, 16, 16);
-font-family: Work Sans;
-font-size: 16px;
-font-weight: 500;
-line-height: 25px;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
 }
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: auto;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  /* gap: 80px; */
+}
+.about-img img {
+  width: 100%;
+  height: 671px;
+}
+.about-img {
+  flex: 1 1 0%;
+}
+.about-title {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 0%;
+  align-items: center;
+  padding: 136px 53px;
+}
+.heading {
+  text-align: center;
+}
+.heading h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.heading p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+  margin-bottom: 48px;
+}
+.heading h6 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  border-top: 2px solid rgba(128, 128, 128, 0.36);
+  border-bottom: 2px solid rgba(128, 128, 128, 0.353); ;
+  padding: 30px 10px 30px 10px;;
+}
+.about-social ul {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.about-social ul li {
+  margin-top: 32px;
+  list-style: none;
+  font-size: 40px;
 
+
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-twitter {
+  color: skyblue;
+}
+.fa-instagram{
+  color: #f72828c0;
+}
+.fa-youtube{
+  color: red;
+}
