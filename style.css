@@ -10,9 +10,9 @@
   padding: 14px 18px 14px 18px;
   color: rgb(255, 255, 255);
   font-family: Work Sans;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 600;
-  line-height: 16px;
+  line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
   border-radius: 8px;
@@ -37,12 +37,12 @@
   align-items: center;
 }
 #hero .hero-container {
-  width: 685px;
+  width: 1023px;
 }
 #hero .hero-container .subtitle {
   color: rgb(255, 255, 255);
   font-family: Work Sans;
-  font-size: 20px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 38px;
   letter-spacing: 0%;
@@ -53,37 +53,46 @@
 #hero .hero-container .title {
   color: rgb(255, 255, 255);
   font-family: Work Sans;
-  font-size: 40px;
+  font-size: 64px;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 80px;
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 24px;
+  width: 1000px;
+  margin: 0 auto;
 }
+
 #hero .hero-container .description {
   color: rgb(255, 255, 255);
   font-family: Work Sans;
-  font-size: 10px;
+  font-size: 18px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 28px;
+
   letter-spacing: 0%;
   text-align: center;
   opacity: 0.7;
-  margin-bottom: 32px;
+  margin: 32px;
 }
 #card-box {
-  padding: ;
+  margin-left: 30px;
   width: 884px;
   margin: 50px auto;
   display: flex;
-  justify-content: space-between;
-  border: 1px dotted black;
+  justify-content: center;
+  /* border: 1px dotted black; */
 }
-#card-box .container{
-  
+#card-box .btn {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.title1 {
+  width: 550px;
+  line-height: 40px;
 }
 #card-box .title {
-
   color: rgb(16, 16, 16);
   font-family: Work Sans;
   font-size: 28px;
@@ -144,16 +153,25 @@ opacity: 0.6; */
   letter-spacing: 0%;
   text-align: center;
 }
+
 .card-container {
   display: flex;
   justify-content: center;
   gap: 12px;
   margin: auto;
 }
+.btn-social {
+  display: flex;
+  justify-content: center;
+}
 .about {
   display: flex;
   justify-content: center;
   /* gap: 80px; */
+}
+.brand {
+  display: flex;
+  justify-content: center;
 }
 .about-img img {
   width: 100%;
@@ -177,7 +195,7 @@ opacity: 0.6; */
   font-family: Work Sans;
   font-size: 44px;
   font-weight: 700;
-  line-height: 64px;
+  line-height: 54px;
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 24px;
@@ -203,8 +221,8 @@ opacity: 0.6; */
   text-align: center;
   opacity: 0.7;
   border-top: 2px solid rgba(128, 128, 128, 0.36);
-  border-bottom: 2px solid rgba(128, 128, 128, 0.353); ;
-  padding: 30px 10px 30px 10px;;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.353);
+  padding: 30px 10px 30px 10px;
 }
 .about-social ul {
   display: flex;
@@ -215,8 +233,6 @@ opacity: 0.6; */
   margin-top: 32px;
   list-style: none;
   font-size: 40px;
-
-
 }
 .fa-facebook {
   color: blue;
@@ -224,9 +240,37 @@ opacity: 0.6; */
 .fa-twitter {
   color: skyblue;
 }
-.fa-instagram{
+.fa-instagram {
   color: #f72828c0;
 }
-.fa-youtube{
+.fa-youtube {
   color: red;
+}
+#below {
+  position: relative;
+  /* margin-bottom: 0; */
+}
+#below img{
+  opacity: 0.2;
+  position: relative;
+  width: 100%;
+  
+  
+}
+#below .below-social{
+  position: absolute;
+  top: 137px;
+  left: 306px;
+  right: 306px;
+
+
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgba(35, 1, 1, 0.521);
+  color: whitesmoke;
+  margin-top: 0;
 }
