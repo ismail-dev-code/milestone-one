@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h3{
+            /* background-color: green; */
+            color:gold;
+            font-size: 48px;
+            width: 500px;
+            text-align: center;
+            border-radius: 20px;
+
+        }
+        h3:hover{
+            color: red;
+            background-color: gray;
+            cursor: pointer;
+        }
+        input{
+            padding: 15px;
+            color: black;
+        }
+        input:focus{
+            color: red;
+            padding: 20px;
+            font-size: 32px;
+        }
+        button{
+            padding: 16px;
+            background-color: greenyellow;
+            border: none;
+            border-radius: 0 10px 10px 0px;
+            margin-left: -5px;
+        }
+        button:hover{
+            background-color: green;
+            cursor: pointer;
+            color: white;
+        }
+        a{
+            background-color: gray
+            ;
+            color: brown;
+            font-size: 29px;
+            
+        }
+        a:visited{
+            color: #4400ff;
+            background-color: rgb(166, 43, 43);
+        }
+        li{
+            font-size: 32px;
+        }
+        /* li:last-child{
+            color: rebeccapurple;
+            /* background-color: yellow; */
+            /* font-size: 32px; */
+        /* } */ 
+        li:nth-child(3n+1){
+            color: red;
+        }
+        .position a{
+            background-color: white;
+            font-size: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin-left: 650px;
+        }
+    </style>
+</head>
+<body>
+   <div>
+    <h3>My Heading</h3>
+    <input type="text" placeholder="Type Your Text Here">
+    <input type="email" placeholder="Type Your Email Here">
+    <input type="number" placeholder="Type Your Number Here">
+    <button type="submit">Submit</button>
+    <br>
+    <a href="https://ismail-dev-code.github.io/new-year-offer/" target="_blank">New Year Offer</a>
+
+    <ul>
+        <li>ALia</li>
+        <li>Balia</li>
+        <li>Chalia</li>
+        <li>Kalia</li>
+        <li>Dalia</li>
+        <li>Malia</li>
+        <li>Oliya</li>
+    </ul>
+   </div>
+   <div class="position">
+    <h1>
+        <a href="position.html">CSS Position</a>
+        <a href="z-index.html">Z-Index</a>
+    </h1>
+   </div>
+</body>
+</html>

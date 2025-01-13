@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        /* border: 2px dotted plum; */
+        width: 200px;
+      }
+      .swim-container {
+        position: relative;
+      }
+      .boy {
+        position: relative;
+        top: 80px;
+        z-index: 10;
+        
+      }
+      .ring {
+        position: absolute;
+        z-index: 5;
+        
+        
+      }
+      .water {
+        position: absolute;
+        bottom: -100px;
+       z-index:3;
+      }
+
+      .sweim{
+        position: fixed;
+        left: -200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>CSS Position</h3>
+    <ol>
+      <!-- flow related******* -->
+      <li>static</li>
+      <li>
+        relative:
+        <small
+          >current position relative e koto tuku change hobe and will not leave
+          the current spot.</small
+        >
+      </li>
+      <li>
+        absolute:
+        <small
+          >will lose its own position and will move based on the root.</small
+        >
+      </li>
+      <!-- scroll related ***** -->
+      <li>fixed</li>
+      <li>sticky</li>
+    </ol>
+    <div class="swim-container">
+      <div class="box boy">
+        <img src="./swim/boy.svg" alt="" />
+      </div>
+      <div class="box ring">
+        <img src="./swim/ring.svg" alt="" />
+      </div>
+      <div class="box water">
+        <img src="./swim/water.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="sweim">
+      <img src="swim/boy.svg" alt="">
+    </div>
+  </body>
+</html>
